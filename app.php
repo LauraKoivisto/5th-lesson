@@ -116,7 +116,7 @@ $stmt-> bind_param("ss", $_GET["to"], $_GET["message"]);
 
 
 //save
-if($stmt->execute()){
+if($stmt->execute())
   echo "saved succesfully";
 
   }else{
@@ -124,10 +124,13 @@ if($stmt->execute()){
 
     	}
 
-	}
+
 
 
 ?>
+<br>
+<a href= "table.php">table</a>
+<br>
 
 <h2> First application </h2>
 
